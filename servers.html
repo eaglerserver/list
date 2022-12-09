@@ -18,7 +18,7 @@
         <h1> Servers: </h1>
         <div id="myData"></div>
         <script>
-          fetch('./servers.json').then(function(response) {
+          fetch('./list.json').then(function(response) {
             return response.json();
           }).then(function(data) {
             appendData(data);
